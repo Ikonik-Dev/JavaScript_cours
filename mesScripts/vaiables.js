@@ -1,4 +1,4 @@
-// todo: les variables
+// LES VARIABLES EN JAVASCRIPT ///
 
 // Exercice 1: Déclarer une variable et l'afficher dans la console
 let myVariable = "Hello, World!";
@@ -19,14 +19,14 @@ console.log("Nouvelle valeur: " + myNumber);
 // Exercice 4: Déclarer une variable avec const et essayer de changer sa valeur (cela devrait provoquer une erreur)
 const myConstant = 100;
 console.log("Valeur de la constante: " + myConstant);
-// myConstant = 200; // Décommenter cette ligne pour voir l'erreur
+// todo:myConstant = 200; // Décommenter cette ligne pour voir l'erreur
 
 // Exercice 5: Déclarer une variable avec let dans un bloc et essayer de l'accéder en dehors du bloc (cela devrait provoquer une erreur)
 {
     let blockVariable = "Je suis dans un bloc";
     console.log(blockVariable);
 }
-// console.log(blockVariable); // Décommenter cette ligne pour voir l'erreur
+// todo:console.log(blockVariable); // Décommenter cette ligne pour voir l'erreur
 
 // Exercice 6: Déclarer une variable avec var dans un bloc et essayer de l'accéder en dehors du bloc (cela ne devrait pas provoquer d'erreur)
 {
@@ -37,7 +37,7 @@ console.log(blockVariable);
 
 // Exercice 7: Déclarer une variable avec let et la déclarer à nouveau avec let (cela devrait provoquer une erreur)
 let myVariable2 = "Je suis une variable";
-// let myVariable2 = "Je suis une autre variable"; // Décommenter cette ligne pour voir l'erreur
+// todo:let myVariable2 = "Je suis une autre variable"; // Décommenter cette ligne pour voir l'erreur
 
 // todo: les types de variables
 
@@ -63,7 +63,9 @@ console.log("Premier élément du tableau: " + myArray[0]);
 let myObject = { name: "Alice", age: 25 };
 console.log("Nom de l'objet: " + myObject.name);
 
-// todo : les opérations sur les variables
+
+
+// LES OPERATEURS EN JAVASCRIPT ///
 
 // Exercice 13: Déclarer deux variables de type number et les additionner en utilisant l'opérateur +
 let num3 = 10;
@@ -109,4 +111,5 @@ console.log("Le reste de la division est: " + remainder);
 let num13 = 5;
 num13 *= 2;
 console.log("La variable multipliée par 2 est: " + num13);
+
 
