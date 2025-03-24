@@ -9,7 +9,8 @@ direBonjour();
 function afficherMessage(message) {
     console.log(message);
 }
-afficherMessage("Bonjour, tout le monde!");
+let monBonjour = "Salut la compagnie!";
+afficherMessage(monBonjour); // Salut la compagnie!
 
 // Exercice 23: Déclarer une fonction qui prend deux paramètres et les additionne
 function additionnerNombres(nombre1, nombre2) {
@@ -106,3 +107,21 @@ function estNombreNegatif(valeur) {
 }
 console.log("Est-ce un nombre négatif? " + estNombreNegatif(-42));
 console.log("Est-ce un nombre négatif? " + estNombreNegatif(42));
+
+// Exercice 37: Déclarer une fonction qui prend un paramètre et renvoie la taxe de vente d'un produit.
+function calculerTaxePrix(prix, taxe) {
+    return prix * taxe;
+}
+
+let prix = 100;
+let taxe = 0.15;
+let taxePrix = calculerTaxePrix(prix, taxe);
+
+// exemple sans fonction du calcul de la taxe de vente d'un produit
+let prixProduit = 100;
+let taxeVente = 0.15;
+let taxeProduit = prixProduit * taxeVente;
+
+console.log("Taxe de vente: " + taxePrix);
+
+
