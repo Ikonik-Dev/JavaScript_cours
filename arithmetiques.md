@@ -59,5 +59,3 @@ function exponentiation(a, b) {
     return a ** b;
 }
 ```
-
-Ces fonctions peuvent être utilisées pour créer des exercices simples et pratiques sur les fonctions en JavaScript.
